@@ -1,11 +1,19 @@
 {
   "name": "Tennis_predictor",
-  "scripts" : {
-    "start" :  "node app.js"
+  "scripts": {
+    "start": "node app.js",
+    "lint": "./node_modules/jshint/bin/jshint ./",
+    "test": "./node_modules/mocha/bin/mocha test/"
   },
   "dependencies": {
     "express": "^4.6.0",
     "nconf": "^0.6.9"
+  },
+  "devDependencies": {
+    "jshint": "^2.5.2",
+    "mocha": "^1.20.1",
+    "precommit-hook": "^1.0.2",
+    "supertest": "^0.13.0"
   },
   "version": "1.0.0"
 }
