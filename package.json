@@ -12,7 +12,6 @@
   "devDependencies": {
     "jshint": "^2.5.2",
     "mocha": "^1.20.1",
-    "precommit-hook": "^1.0.2",
     "supertest": "^0.13.0"
   },
   "version": "1.0.0"
