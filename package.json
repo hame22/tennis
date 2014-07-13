@@ -2,7 +2,8 @@
   "name": "Tennis_predictor",
   "scripts": {
     "start": "node app.js",
-    "lint": "./node_modules/jshint/bin/jshint ./"
+    "lint": "./node_modules/jshint/bin/jshint ./",
+    "test": "./node_modules/mocha/bin/mocha test/"
   },
   "dependencies": {
     "express": "^4.6.0",
