@@ -7,8 +7,9 @@ routes = require('./lib/routes');
 var app = express();
 
 app.set('port', config.get('server:port'));
-
-app.set('port', 3000);
+app.set('views', __dirname + '/views');
+app.set('view engine', 'jade');
+app.use(express.static(__dirname + '/public'));
 
 app.get('/', routes.index);
 
