@@ -1,6 +1,12 @@
 #playerSearch
 	p Player search goes here
 
-	select
-		each player in players
-			option(value=i) #{player}
+	form#playerSearchForm(action='/headToHead',method='post')
+		select#player1(name='player1')
+			each player in players
+				option(value = player) #{player}
+
+		select#player2(name='player2')
+			each player in players
+				option(value = player) #{player}
+		input(type='submit' value='Search')
