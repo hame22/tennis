@@ -1,7 +1,7 @@
 #playerSearch
 	p Player search goes here
 
-	form#playerSearchForm(action='/headToHead',method='post')
+	form#playerSearchForm(action='/headToHead',method='post', enctype='application/x-www-form-urlencoded')
 		select#player1(name='player1')
 			each player in players
 				option(value = player) #{player}

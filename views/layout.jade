@@ -9,7 +9,9 @@ html(lang="en")
 			include partials/playerSearch
 
 			#playersHeading
-				p players heading goes here
+				if h2hPlayers
+					p players heading goes here
+					include partials/playerHeading
 
 			#pageData
 				p page data goes here
