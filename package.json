@@ -13,6 +13,10 @@
     "node-rest-client": "^1.0.0"
   },
   "devDependencies": {
+    "gulp": "^3.8.6",
+    "gulp-changed": "^0.4.1",
+    "gulp-ngmin": "^0.3.0",
+    "gulp-sass": "^0.7.2",
     "jshint": "^2.5.2",
     "mocha": "^1.20.1",
     "supertest": "^0.13.0"
