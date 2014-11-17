@@ -1,5 +1,7 @@
 'use strict';
 
+console.log('testing');
+
 var express = require('express'),
 config = require('./lib/configuration'),
 routes = require('./lib/routes'),
@@ -23,5 +25,3 @@ app.listen(app.get('port'), function () {
 });
 
 module.exports = app;
-
-console.log('master');
