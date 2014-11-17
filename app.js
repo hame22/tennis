@@ -24,6 +24,4 @@ app.listen(app.get('port'), function () {
 
 module.exports = app;
 
-console.log('alex-test-2');
-
 console.log('master');
