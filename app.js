@@ -1,5 +1,10 @@
 'use strict';
 
+<<<<<<< HEAD
+//branch update
+
+=======
+>>>>>>> master
 var express = require('express'),
 config = require('./lib/configuration'),
 routes = require('./lib/routes'),
@@ -22,4 +27,10 @@ app.listen(app.get('port'), function () {
 	console.log('Listening....');
 });
 
+<<<<<<< HEAD
 module.exports = app;
+=======
+//master update
+
+module.exports = app;
+>>>>>>> master
