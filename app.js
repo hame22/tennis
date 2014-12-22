@@ -1,7 +1,5 @@
 'use strict';
 
-console.log('testing');
-
 var express = require('express'),
 config = require('./lib/configuration'),
 routes = require('./lib/routes'),
@@ -23,5 +21,7 @@ app.post('/headToHead', routes.headToHead);
 app.listen(app.get('port'), function () {
 	console.log('Listening....');
 });
+
+//master update
 
 module.exports = app;
